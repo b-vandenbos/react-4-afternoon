@@ -30,6 +30,7 @@ export default class ClassList extends Component {
 
     return (
       <div className="box">
+      <button><Link to="/">Back</Link></button>
         <h1>{this.props.match.params.class}</h1>
         <h2>ClassList:</h2>
         {classStudents}
